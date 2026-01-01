@@ -1,0 +1,86 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:#0d0d0d;
+  color:#f2f2f2;
+  font-family:Arial, sans-serif;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 40px;
+  border-bottom:1px solid #222;
+}
+
+nav h1{
+  color:#00adb5;
+}
+
+.nav-links a{
+  color:#aaa;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+.nav-links a:hover{
+  color:#00adb5;
+}
+
+header{
+  text-align:center;
+  padding:80px 20px;
+}
+
+header h2{
+  font-size:36px;
+}
+
+header h3{
+  color:#aaa;
+  font-weight:normal;
+}
+
+.highlight{
+  color:#00adb5;
+  margin-top:10px;
+}
+
+section{
+  max-width:900px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+h2{
+  border-bottom:1px solid #222;
+  padding-bottom:6px;
+  color:#00adb5;
+}
+
+.skills span{
+  display:inline-block;
+  background:#1a1a1a;
+  margin:8px;
+  padding:10px 15px;
+  border-radius:20px;
+  border:1px solid #222;
+}
+
+.project-card{
+  background:#141414;
+  padding:20px;
+  margin-top:20px;
+  border-left:3px solid #00adb5;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:1px solid #222;
+  color:#777;
+}
